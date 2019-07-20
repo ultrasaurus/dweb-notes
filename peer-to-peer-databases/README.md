@@ -5,42 +5,36 @@ Technologies
 - HyperCore
 - DAT
 - IPFS
+- IPLD — Linked data, supports schema negotiation 
 
 Applications
 - UNSDG — sustainable development goals, interim for indexing, for ML
 - Mapeo - amazon rain forest 
 - Substack - peer map
 
-## Interoperability 
-
+## Interoperability Discussion (July 19, 2019)
 
 - Versions
 - Operations / events
 - Data types
 
+
 Things to think about using
 - CRDT — converge to one state
 - Inmutable chain of diffs
 
+Single ontology doesn’t work (some people thought it would, decided not to pursue that angle)
+Must be able to be federated
+Structure is local to the dataset / application
+GraphQL migth be useful — specifies presentation to enable querying independent from storage schema
 
-———
+Need some kind of Authority : could be DNS, public key
 
-Challenges of interoperability?
-Next steps to make that happen
+### Version discussion
+Timestamp or version number
+We're really talking about causality not about time
 
-Single ontology doesn’t work
-Must be Federated
-Structure local to the dataset
-GraphQL — presentation later querying
-
-IPLD — Linked data, schemes negotiation 
-
-Authority : DNS, public key
-
-Versions
-
-Time/version — every
-Talking about causality not time
+How would this be solved across space?  (e.g. not reliant on terrestrial clock)
 
 Lamport clock to create local ordering
 
