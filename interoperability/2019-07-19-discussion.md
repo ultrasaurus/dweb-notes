@@ -33,12 +33,3 @@ Application independent of database
 Data-types and subscription
 
 
-## Scalability -
-- number of participants
-- Number of things
-- History - length of history
-
-Log size, limited window (time, number, size) - snapshot
-Inportance of trust, lineage, auditibilty
-Contextualized trust
-
